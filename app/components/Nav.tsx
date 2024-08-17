@@ -13,17 +13,14 @@ const Nav = async () => {
     <nav className="h-[10vh] overflow-hidden shadow-md">
       <div className="w-[90%] md:w-[80%] h-[100%] mx-auto flex items-center justify-between">
         {/* logo */}
-        <div className="w-[200px] h-[200px] md:w-[250px] md:h-[250px]">
-          <Link href={"/"}>
-            <Image
-              src={logoImage}
-              alt="logo"
-              width={250}
-              height={250}
-              className="w-[100%] h-[100%]"
-            />
-          </Link>
-        </div>
+        <Link href={"/"}>
+          <Image
+            src={logoImage}
+            alt="logo"
+            width={150}
+            height={150}
+          />
+        </Link>
 
         {session ? (
           <div className="flex items-center space-x-4">
