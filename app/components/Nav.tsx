@@ -18,7 +18,7 @@ const Nav = async () => {
             src={logoImage}
             alt="logo"
             width={150}
-            height={150}
+            height={80}
           />
         </Link>
 
