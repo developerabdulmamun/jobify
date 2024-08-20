@@ -1,3 +1,4 @@
+import FeaturedJobs from "./components/FeaturedJobs";
 import Hero from "./components/Hero";
 import JobCategory from "./components/JobCategory";
 
@@ -6,6 +7,7 @@ export default function Home() {
     <main>
       <Hero />
       <JobCategory />
+      <FeaturedJobs />
     </main>
   );
 }

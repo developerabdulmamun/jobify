@@ -5,47 +5,47 @@ import JobCategoryCard from "./JobCategoryCard";
 const JOB_CATEGORIES = [
   {
     image: "/images/icon1.png",
-    category: "Technology",
+    category: "Finance",
     open_positions: 120,
   },
   {
     image: "/images/icon2.png",
-    category: "Healthcare",
+    category: "Marketing",
     open_positions: 85,
   },
   {
     image: "/images/icon3.png",
-    category: "Finance",
+    category: "Design",
     open_positions: 95,
   },
   {
     image: "/images/icon4.png",
-    category: "Education",
+    category: "Development",
     open_positions: 60,
   },
   {
     image: "/images/icon5.png",
-    category: "Marketing",
+    category: "Human Resource",
     open_positions: 40,
   },
   {
     image: "/images/icon6.png",
-    category: "Engineering",
+    category: "Automotive Jobs",
     open_positions: 110,
   },
   {
     image: "/images/icon7.png",
-    category: "Retail",
+    category: "Customer Services",
     open_positions: 75,
   },
   {
     image: "/images/icon8.png",
-    category: "Transportation",
+    category: "Health and Care",
     open_positions: 55,
   },
   {
     image: "/images/icon9.png",
-    category: "Arts & Entertainment",
+    category: "Project Management",
     open_positions: 30,
   },
 ];
